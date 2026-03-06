@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Itzfizz Web Development Internship Assignment 🚀
 
-## Getting Started
+A high-performance landing page featuring a scroll-driven hero section, built as part of the web development internship assignment for Itzfizz Digital.
 
-First, run the development server:
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Live Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🌍 **[View the Live Site Here](https://officila11615.github.io/itzfizz)**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎯 Project Overview
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project implements a dynamic hero section with smooth scroll animations, designed to captivate users upon arrival. It fulfills all the core requirements of the Itzfizz assignment:
+- **Scroll-Driven Animation:** A visual element (car) moves across the screen based on the user's scroll position.
+- **Letter-Spaced Headline:** The main headline "WELCOME ITZFIZZ" reveals dynamically as the user scrolls.
+- **Impact Metrics Stagger:** Four impact metric boxes smoothly scroll into view.
+- **Modern Tech Stack:** Built using Next.js, React, Tailwind CSS, and GreenSock Animation Platform (GSAP).
 
-## Learn More
+## 🛠️ Technologies Used
 
-To learn more about Next.js, take a look at the following resources:
+- **Framework:** [Next.js](https://nextjs.org/) (App Router)
+- **Library:** [React](https://reactjs.org/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/) & Vanilla CSS (`globals.css`)
+- **Animation:** [GSAP](https://gsap.com/) & GSAP ScrollTrigger
+- **Hosting:** [GitHub Pages](https://pages.github.com/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 💻 Running Locally
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+To run this project on your local machine, follow these steps:
 
-## Deploy on Vercel
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/officila11615/itzfizz.git
+   cd itzfizz
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **View the app:**
+   Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## 📄 License & Credits
+
+- Developed by **officila11615** for the Itzfizz Digital internship assignment.
+- Car vector graphic used for educational purposes.
