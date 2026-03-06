@@ -141,7 +141,7 @@ export default function HeroSection() {
         <div className="road" id="road">
           {/* Car */}
           <img
-            src="/car.png"
+            src="/itzfizz/car.png"
             alt="Sports car"
             className="car"
             ref={carRef}
